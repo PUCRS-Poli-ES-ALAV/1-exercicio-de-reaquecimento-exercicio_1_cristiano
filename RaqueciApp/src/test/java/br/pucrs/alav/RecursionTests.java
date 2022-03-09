@@ -10,48 +10,57 @@ public class RecursionTests {
 
 	@Test
 	public void test() { 
-		assertTrue("Será?", true);
+		assertTrue("Ser�?", true);
 	}
 	
+	@Test
 	public void testMul() {
-		
 		Recursion recursion = new Recursion();
-		
 		assertEquals(56L, recursion.mult(7, 8));
 	}
 	
+	@Test
 	public void testSum() {
-		assertTrue(false);
+		Recursion recursion = new Recursion();
+		assertEquals(7L, recursion.sum(3, 4));
 	}
 	
+	@Test
 	public void testCalcFrac() {
 		assertTrue(false);
 	}
 	
+	@Test
 	public void testInvert() {
 		assertTrue(false);
 	}
 	
+	@Test
 	public void testSequence() {
 		assertTrue(false);
 	}
 	
+	@Test
 	public void testAckerman() {
 		assertTrue(false);
 	}
 	
+	@Test
 	public void testVecProduct() {
 		assertTrue(false);
 	}
 	
+	@Test
 	public void testPalindromo() {
 		assertTrue(false);
 	}
 	
+	@Test
 	public void testAlphaCombination() {
 		assertTrue(false);
 	}
 	
+	@Test
 	public void testFibonacci() {
 		assertTrue(false);
 	}
