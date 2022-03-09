@@ -10,16 +10,25 @@ public class Recursion {
 			};
 	
 	public long mult(long a, long b) {
-		return 0;
+		if(a <= 0) return 0;
+		if(b <= 0) return 0;
+
+		return a + mult(a, --b);
 	}
 	
 	public long sum(long a, long b) {
-		return 0;
+		return sumAux(a) + sumAux(b);
+	}
+	private long sumAux(long n){
+		if(n <=0) return 0;
+
+		return 1 + sumAux(--n);
 	}
 	
 	public double sumFraction(long n) {
 		return 0;
 	}
+	
 	
 	public String invert(String txt) {
 		return txt;
